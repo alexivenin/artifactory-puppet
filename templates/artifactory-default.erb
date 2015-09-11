@@ -1,0 +1,11 @@
+#!/bin/sh
+
+#Default values
+export ARTIFACTORY_HOME=<%= @tpl_artifactory_home %>
+export ARTIFACTORY_USER=<%= @artifactory_user %>
+#export JAVA_HOME=/opt/java/1.7.0
+
+export TOMCAT_HOME=$ARTIFACTORY_HOME/tomcat
+export ARTIFACTORY_PID=$ARTIFACTORY_HOME/run/artifactory.pid
+
+export JAVA_OPTIONS="<%= @artifactory_java_options %>"

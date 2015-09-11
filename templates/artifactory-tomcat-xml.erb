@@ -1,0 +1,9 @@
+<Context path="/artifactory" docBase="<%= @tpl_artifactory_home %>/webapps/artifactory.war">
+    <Manager pathname=""/>
+    <!--  disable TLD scanning -->
+    <JarScanner>
+        <JarScanFilter defaultTldScan="false"/>
+    </JarScanner>
+<Valve className="org.apache.catalina.valves.RemoteIpValve" protocolHeader="x-forwarded-proto"/>
+</Context>
+

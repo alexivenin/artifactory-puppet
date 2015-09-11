@@ -1,0 +1,21 @@
+{
+  "author": "devops@iponweb.net",
+  "dependencies": [],
+  "license": "Proprietary Iponweb",
+  "name": "iponweb-artifactory",
+  "operatingsystem_support": [
+  	{
+      "operatingsystem": "Ubuntu",
+      "operatingsystemrelease": [
+        "14.04"
+      ]
+    }
+  ],
+  "project_page": "https://github.com/alexivenin/artifactory-puppet",
+  "requirements": [],
+  "source": "https://github.com/alexivenin/artifactory-puppet",
+  "summary": "Jfrog Artifactory setup module",
+  "tags": [],
+  "version": "0.0.16"
+}
+
